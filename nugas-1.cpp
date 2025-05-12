@@ -20,9 +20,9 @@ int main() {
     head=_hold;
     
     while(head){
-        head=head->next;
-        std::cout<<head->number;
         
+        std::cout<<head->number;
+        head=head->next;
     }
     
 
